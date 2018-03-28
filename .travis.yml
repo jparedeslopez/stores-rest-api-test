@@ -1,0 +1,10 @@
+language: python
+env:
+ - PYTHONPATH=`pwd`
+python:
+ - "3.6"
+ - "nightly"
+install:
+  - "pip install pytest"
+  - "pip install -r starter_code/requirements.txt"
+ script: python -m pytest starter_code/tests/
