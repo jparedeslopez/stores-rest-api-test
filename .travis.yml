@@ -6,4 +6,5 @@ python:
 install:
  - "pip install pytest"
  - "pip install -r starter_code/requirements.txt"
- "script: python -m pytest starter_code/tests/"
+# command to run tests
+script: python -m pytest section3/video_code/
