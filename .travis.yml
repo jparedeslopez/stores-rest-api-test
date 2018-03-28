@@ -5,4 +5,4 @@ python:
 install:
  - "pip install pytest"
  - "pip install -r starter_code/requirements.txt"
- script: python --version && python -m pytest starter_code/tests/
+ script: python -m test starter_code/tests/
