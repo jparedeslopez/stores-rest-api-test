@@ -1,7 +1,7 @@
-from models.item import ItemModel
-from resources.store import StoreList
-from tests.base_test import BaseTest
-from models.store import StoreModel
+from ...models.item import ItemModel
+from ...resources.store import StoreList
+from ...tests.base_test import BaseTest
+from ...models.store import StoreModel
 import json
 
 class StoreTest(BaseTest):

@@ -1,5 +1,5 @@
-from tests.unit.unit_base_test import UnitBaseTest
-from models.item import ItemModel
+from ..unit_base_test import UnitBaseTest
+from ....models.item import ItemModel
 
 
 class ItemTest(UnitBaseTest):

@@ -1,6 +1,6 @@
-from models.item import ItemModel
-from models.store import StoreModel
-from tests.base_test import BaseTest
+from ....models.item import ItemModel
+from ....models.store import StoreModel
+from ....tests.base_test import BaseTest
 
 class StoreTest(BaseTest):
     def test_create_store_empty_items(self):
