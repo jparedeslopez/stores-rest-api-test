@@ -3,12 +3,6 @@ from ....models.store import StoreModel
 from ....tests.base_test import BaseTest
 
 class StoreTest(BaseTest):
-    def test_create_store_empty_items(self):
-        store = StoreModel('test')
-
-        self.assertListEqual(store.items.all, [])
-
-
     def test_crud(self):
         with self.app_context():
             store = StoreModel('test')
