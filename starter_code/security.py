@@ -1,5 +1,5 @@
 from werkzeug.security import safe_str_cmp #to compar strings safely between Python 2 and 3
-from models.user import UserModel
+from .models.user import UserModel
 
 
 def authenticate(username, password):
