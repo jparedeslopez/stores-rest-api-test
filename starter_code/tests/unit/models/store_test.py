@@ -1,5 +1,5 @@
-from models.store import StoreModel
-from tests.unit.unit_base_test import UnitBaseTest
+from ....models.store import StoreModel
+from ..unit_base_test import UnitBaseTest
 
 # only the init method is unit testeble. ALl the other stuff depend on some kind of reation with the other dn
 class StoreTest(UnitBaseTest):
